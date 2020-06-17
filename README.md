@@ -13,7 +13,13 @@
 ./bakingAO [options]
 
   -h  | --help	帮助信息
+
   -i  | --infile <model_file(string)>	输入文件的地址
+
   -o  | --outfile <image_file(string)>	输出文件的地址
+
   -d  | --distance <offset(number)>	offset的数值
+
   -m  | --max <max_distance(muber)>	射线的的最大距离
+
+  
