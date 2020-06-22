@@ -6,7 +6,13 @@
 
 - 将文件夹`bakingAO/lib64`中的libglfw.so.3 libglfw.so.3.3 liboptix_prime.so.6.5.0 文件挪到`usr/lib`文件夹下
 
-- 进入debug文件 运行`./bakingAO` 
+- 输入命令行`apt-get install xvfb`
+
+- 输入命令行`Xvfb :5 -screen 0 800x600x24`
+
+- 输入命令行`export DISPLAY=:5`
+
+- 进入debug文件 运行`./bakingAO `  测试：`./bakingAO -i ../1.glb`
 
 ## 输入说明
 
