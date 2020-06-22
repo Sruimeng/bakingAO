@@ -8,9 +8,7 @@
 
 - 输入命令行`apt-get install xvfb`
 
-- 输入命令行`Xvfb :5 -screen 0 800x600x24`
-
-- 输入命令行`export DISPLAY=:5`
+- 输入命令行`Xvfb :5 -screen 0 800x600x24 & export DISPLAY=:5`
 
 - 进入debug文件 运行`./bakingAO `  测试：`./bakingAO -i ../1.glb`
 
