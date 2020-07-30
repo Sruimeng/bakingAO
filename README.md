@@ -18,12 +18,15 @@
 
   -h  | --help	帮助信息
 
-  -i  | --infile <model_file(string)>	输入文件的地址
+  -i  | --infile <model_file(string)>	输入文件的地址   必要参数
 
-  -o  | --outfile <image_file(string)>	输出文件的地址
+  -o  | --outfile <image_file(string)>	输出文件的地址   必要参数
 
-  -d  | --distance <offset(number)>	offset的数值
+  -d  | --distance <offset(number)>	offset的数值 1-9 之间 默认为1 非必要参数
 
-  -m  | --max <max_distance(muber)>	射线的的最大距离
+ -s  | --scale 	<model(number)>	offset的层数 1-5之间 默认为3 非必要参数
 
+  -m  | --max <max_distance(muber)>	射线的的最大距离  10-无穷(理论上) 默认为10 非必要参数
+
+-u  | --uvoffset <uvoffset(number)>	接缝像素的偏移 目前只有0 1 2 默认为1 非必要参数
   
