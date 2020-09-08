@@ -20,7 +20,7 @@
 
   -i  | --infile <model_file(string)>	输入文件的地址   必要参数
 
-  -o  | --outfile <image_file(string)>	输出文件的地址   必要参数
+  -o  | --outfile <image_file(string)>	输出文件的前缀   必要参数
 
   -d  | --distance <offset(number)>	offset的数值 1-9 之间 默认为1 非必要参数
 
