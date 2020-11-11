@@ -2,3 +2,5 @@
 *.jpg
 *.gltf
 *.bin
+*.json
+*.cpp
