@@ -31,4 +31,6 @@
 -u  | --uvoffset <uvoffset(number)>	接缝像素的偏移 目前只有0 1 2 默认为1 非必要参数
 
  -f  | --sigle_img_flag <sigle_img_flag(number)>  是否输出为一张图片 0/1 默认为1(输出为一张图片) 非必要参数
+
+  -n  | --fix_normals <fix_normals_flag(number)> 是否修复normals  0/1 默认为0 非必要参数
   
